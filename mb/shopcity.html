@@ -1,0 +1,43 @@
+<script type="text/html" id="shopcity">
+
+
+
+
+<%for(var i in shop_data){%>
+
+<div class="stor_left_3_1">
+
+    <ul>
+    <li class="stor_left_3_1_1">
+    <figure>
+    <img src="<%=shop_data[i].shop_ico%>">
+    <figcaption>
+    <span><a><%=shop_data[i].shop_name%></a><p>店铺等级：</P><!-- <img src="imgs/xj2.jpg"> --> </span>
+    <p>主营：<%=shop_data[i].main%></p>
+    <P>地址：<%=shop_data[i].addr_detail%></P>
+    </figcaption>
+    </figure>
+    </li>
+    <li class="stor_left_3_1_2">
+    <figure>
+    <img src="imgs/hb1.png">
+    <figcaption>
+    <p>先行赔付</P>
+    </figcaption>
+    </figure>
+    <figure>
+    <img src="imgs/rz.png">
+    <figcaption>
+    <p>同城帮认证</P>
+    </figcaption>
+    </figure>
+    <p>人气:<%=shop_data[i].shop_visit%>次浏览</p>
+    </li>
+    <li class="stor_left_3_1_3">
+    <a href="<%=shop_data[i].shop_addr%>">进入店铺</a>
+    </li>
+    <ul>
+</div>
+<%}%>
+
+</script>

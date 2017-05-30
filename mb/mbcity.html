@@ -1,0 +1,26 @@
+<script type="text/html" id="Mcity">
+	
+	   <ul>
+                    <li>                   
+                      <h4>热门</h4>
+                    <p>
+                    <%for(var i in result.hotcity){%>
+                    	 <a href="#"><%=result.hotcity[i].name%></a>
+                    <%}%>
+                    </p>
+                    </li>
+                    <li>
+                    <h4>拼音</h4>
+                    <%for(var j in result.citylist){%>
+                    <div class="citylist_pinyin">
+                        <a href="#"><%=j%></a>  
+                    </div>
+                    <p id="city">
+                          <a href="#"><%=result.citylist[j][k]%></a>
+                    </p>
+
+                <%}%>
+                    </li>
+                </ul> 
+
+</script>

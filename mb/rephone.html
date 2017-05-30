@@ -1,0 +1,15 @@
+<script type="text/html" id="rephone_baidu">
+
+    <img src="imgs/divpos.png">
+    
+<%for(var i in result){%>
+        	<p>
+        	<span><%=result[i].name%></span><img src="imgs/onebg.jpg">
+        	<%for(var k in result[i].list){%>
+            <a><%=result[i].list[k].name%></a><img src="imgs/onebg.jpg">
+<%}%>
+</p>
+        <%}%>
+    
+
+</script>

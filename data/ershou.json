@@ -1,0 +1,86 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": [
+        {
+            "product_id": "26227",
+            "model_name": "GALAXY C5",
+            "brand_id": "1",
+            "brand_name": "三星",
+            "price": 1199,
+            "model_id": "579",
+            "mer_id": "9",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t0191d31cd0abf6c2a8.jpg",
+                "big": "http://p0.qhmsg.com/t01ae3eb9ee4e1b1021.jpg",
+                "mid": "http://p0.qhmsg.com/t016124db2c946df24b.jpg",
+                "min": "http://p0.qhmsg.com/t01a1a7c9eed004bf49.jpg"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27250",
+            "model_name": "iPhone 6s",
+            "brand_id": "2",
+            "brand_name": "苹果",
+            "price": 2699,
+            "model_id": "261",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t01c6513b053e67f2e2.jpg",
+                "big": "http://p0.qhmsg.com/t0187b033dbdd10668d.jpg",
+                "mid": "http://p0.qhmsg.com/t01ecc14261a7523947.jpg",
+                "min": "http://p0.qhmsg.com/t01b46e3f7eea05304a.jpg"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27207",
+            "model_name": "iPhone 6",
+            "brand_id": "2",
+            "brand_name": "苹果",
+            "price": 2050,
+            "model_id": "97",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t010c8cd989fa3b1c8a.png",
+                "big": "http://p0.qhmsg.com/t0134087cae802f7fc1.png",
+                "mid": "http://p0.qhmsg.com/t0115dd58fd04302b3b.png",
+                "min": "http://p0.qhmsg.com/t011d83bb5729680d79.png"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27199",
+            "model_name": "iPhone 6",
+            "brand_id": "2",
+            "brand_name": "苹果",
+            "price": 2099,
+            "model_id": "97",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t01042f0e1ad3db884a.png",
+                "big": "http://p0.qhmsg.com/t01f5575883be765e32.png",
+                "mid": "http://p0.qhmsg.com/t01ca68a181942f676d.png",
+                "min": "http://p0.qhmsg.com/t016ef94425a00bd05a.png"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27213",
+            "model_name": "iPhone 6",
+            "brand_id": "2",
+            "brand_name": "苹果",
+            "price": 1899,
+            "model_id": "97",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t01042f0e1ad3db884a.png",
+                "big": "http://p0.qhmsg.com/t01f5575883be765e32.png",
+                "mid": "http://p0.qhmsg.com/t01ca68a181942f676d.png",
+                "min": "http://p0.qhmsg.com/t016ef94425a00bd05a.png"
+            },
+            "mer_name": ""
+        }
+    ]
+}

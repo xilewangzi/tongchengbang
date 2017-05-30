@@ -1,0 +1,17 @@
+<script type="text/html" id="ershou">
+
+
+    <span class="main_middle_bottom_two_1">
+        <img src="imgs/second.png">
+    </span>
+    <%for(var i in result){%>
+    <li>
+       <img src="<%=result[i].thum_img.big%>">
+       <p>
+           <%=result[i].model_name%>
+           <%=result[i].brand_name%>
+       </p>
+       <span class="main_middle_second_two_span"><P>￥<%=result[i].price%></P></span>
+    </li>
+    <%}%>
+
